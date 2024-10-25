@@ -6,9 +6,10 @@
 | :-------------------------------------------------: |
 |          Primitive Three Tier Architecture          |
 
-| ![Modern Three Tier Architecture](modern0.png) ![Modern Three Tier Architecture](modern1.png) |
-| :-------------------------------------------------------------------------------------------: |
-|                                Modern Three Tier Architecture                                 |
+| ![Modern Three Tier Architecture](modern0.png) |
+| :--------------------------------------------: |
+| ![Modern Three Tier Architecture](modern1.png) |
+|         Modern Three Tier Architecture         |
 
 ## Modern Three Tier Architecture (Video time: 2:27)
 

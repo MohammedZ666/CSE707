@@ -1,17 +1,11 @@
 # Four Types of Distributed System Architectures:
 
-## Primitive Three Tier Architecture (Video time: 0:00)
-
-| ![Primitive Three Tier Architecture](primitive.png) |
-| :-------------------------------------------------: |
-|          Primitive Three Tier Architecture          |
+## Modern Three Tier Architecture (Video time: 2:27)
 
 | ![Modern Three Tier Architecture](modern0.png) |
 | :--------------------------------------------: |
 | ![Modern Three Tier Architecture](modern1.png) |
 |         Modern Three Tier Architecture         |
-
-## Modern Three Tier Architecture (Video time: 2:27)
 
 - Presentation Tier -> Business Tier -> Database
 - Cassandra selects nodes based on the key (id) of the data through a hash function

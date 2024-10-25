@@ -1,6 +1,6 @@
 # Four Types of Distributed System Architectures:
 
-These are notes taken from Tim Bergund's talk on distributed systems for Devoxx Poland in 2017, click below to watch:
+These are notes taken from Tim Bergund's talk on distributed systems for Devoxx Poland in 2017:
 
 [![Four Distributed Systems Architectural Patterns by Tim Berglund](thumbnail.png)](https://youtu.be/BO761Fj6HH8 "Four Distributed Systems Architectural Patterns by Tim Berglund")
 

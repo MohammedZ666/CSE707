@@ -1,6 +1,14 @@
 # Four Types of Distributed System Architectures:
 
-## Modern Three Tier Architecture (Video time: 2:27)
+## 0. Primitive Three Tier Architecture
+
+| ![Primitive Three Tier Architecure](primitive.png) |
+| :------------------------------------------------: |
+|          Primitive Three Tier Architecure          |
+
+- Not a distributed system
+
+## 1. Modern Three Tier Architecture (Video time: 2:27)
 
 | ![Modern Three Tier Architecture](modern0.png) |
 | :--------------------------------------------: |
@@ -25,7 +33,7 @@
   - Flexibility: 5
     - Clustering stateless backends is fully flexible
 
-## Sharded Architecture (Video 16:49)
+## 2. Sharded Architecture (Video 16:49)
 
 | ![Low Scale Sharded Architecture](shard.png) |
 | :------------------------------------------: |
@@ -63,7 +71,7 @@
   - Flexibility: 3
     - Fairly flexible
 
-## Lambda 28:43
+## 3. Lambda 28:43
 
 | ![Lambda Architecture](lambda.png) |
 | :--------------------------------: |
@@ -110,7 +118,7 @@
 - Although partitions are ordered, the Topic is not (in a partitioned Topic)
 -
 
-## Streaming 39:59
+## 4. Streaming 39:59
 
 |        ![No Streaming](noesb.png)        |
 | :--------------------------------------: |

@@ -1,5 +1,8 @@
 # Four Types of Distributed System Architectures:
 
+These are notes taken from Tim Bergund's talk on distributed systems for Devoxx Poland in 2017:
+[![Four Distributed Systems Architectural Patterns by Tim Berglund](image.png)](https://youtu.be/BO761Fj6HH8)
+
 ## 0. Primitive Three Tier Architecture
 
 | ![Primitive Three Tier Architecure](primitive.png) |
@@ -8,7 +11,7 @@
 
 - Not a distributed system
 
-## 1. Modern Three Tier Architecture (Video time: 2:27)
+## 1. Modern Three Tier Architecture [2:27](https://youtu.be/BO761Fj6HH8?t=147)
 
 | ![Modern Three Tier Architecture](modern0.png) |
 | :--------------------------------------------: |
@@ -33,11 +36,11 @@
   - Flexibility: 5
     - Clustering stateless backends is fully flexible
 
-## 2. Sharded Architecture (Video 16:49)
+## 2. Sharded Architecture [16:49](https://youtu.be/BO761Fj6HH8?t=1009)
 
-| ![Low Scale Sharded Architecture](shard.png) |
-| :------------------------------------------: |
-|        Low Scale Sharded Architecture        |
+| ![Unscaled Sharded Architecture](shard.png) |
+| :-----------------------------------------: |
+|        Unscaled Sharded Architecture        |
 
 | ![Scaled Sharded Architecture](sharding_plus.png) |
 | :-----------------------------------------------: |
@@ -71,7 +74,7 @@
   - Flexibility: 3
     - Fairly flexible
 
-## 3. Lambda 28:43
+## 3. Lambda [28:43](https://youtu.be/BO761Fj6HH8?t=1723)
 
 | ![Lambda Architecture](lambda.png) |
 | :--------------------------------: |
@@ -102,7 +105,7 @@
   - Flexibility: 2
     - Not a general purpose framework, only for event analysis
 
-### Messaging (Kafka)
+### 3.1 Messaging (Kafka) [34:41](https://youtu.be/BO761Fj6HH8?t=2081)
 
 | ![Kafka](kafka.png) |
 | :-----------------: |
@@ -118,7 +121,7 @@
 - Although partitions are ordered, the Topic is not (in a partitioned Topic)
 -
 
-## 4. Streaming 39:59
+## 4. Streaming [39:59](https://youtu.be/BO761Fj6HH8?si=5rltv7bh0Ne5URPW&t=2399)
 
 |        ![No Streaming](noesb.png)        |
 | :--------------------------------------: |

@@ -2,7 +2,7 @@
 
 These are notes taken from Tim Bergund's talk on distributed systems for Devoxx Poland in 2017, click below to watch:
 
-[![Four Distributed Systems Architectural Patterns by Tim Berglund](image-1.png)](https://youtu.be/BO761Fj6HH8 "Four Distributed Systems Architectural Patterns by Tim Berglund")
+[![Four Distributed Systems Architectural Patterns by Tim Berglund](thumbnail.png)](https://youtu.be/BO761Fj6HH8 "Four Distributed Systems Architectural Patterns by Tim Berglund")
 
 ## 0. Primitive Three Tier Architecture
 

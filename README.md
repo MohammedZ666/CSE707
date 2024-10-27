@@ -91,14 +91,15 @@ These are notes taken from Tim Bergund's talk on distributed systems for Devoxx 
 - Lamda assumes data is unbounded and immutable (cannot be changed)
 - Real world events gets written to a bounded long term storage (Cassandra + Spark) for high latency and bounded batch analysis (Example: business analysis, like what kinds of ads work)
 - Events also gets written to a low latency, unbounded temporary queue (Event framework) (Example: real time data, tweet-notification)
-- Data from Cassandra+Spark and Event-Framework gets written to a scalable database at the backend (Cassandra)
-- Cassandra+Spark and Event-framework is optimized to do bounded and unbounded analysis repectively
+- Data from bounded and unbounded storage gets written to a scalable database at the backend (Cassandra)
+- Bounded and unbounded storage is optimized to do bounded and unbounded analysis repectively.
+- Analysis is parallel
 - Strengths:
   - Optimized subsystems based on operational requirement
   - Good at unbounded data
 - Weaknesses:
   - Complex to operate and maintain
-  - Need to write almost same code twice once for each data system (Batch jobs and Stream analysis)
+  - Need to write almost same code twice once for each data system (Batch jobs (bounded) and Stream analysis (unbounded))
 - Rate (Out of 5):
   - Scalability: 5
   - Hipness: 1

@@ -89,7 +89,7 @@ These are notes taken from Tim Bergund's talk on distributed systems for Devoxx 
 - Streaming data is a log of events
 - Streaming data is unbounded
 - Lamda assumes data is unbounded and immutable (cannot be changed)
-- Real world events gets written to a long term storage (Cassandra + Spark) for high latency and bounded batch analysis (Example: business analysis, like what kinds of ads work)
+- Real world events gets written to a bounded long term storage (Cassandra + Spark) for high latency and bounded batch analysis (Example: business analysis, like what kinds of ads work)
 - Events also gets written to a low latency, unbounded temporary queue (Event framework) (Example: real time data, tweet-notification)
 - Data from Cassandra+Spark and Event-Framework gets written to a scalable database at the backend (Cassandra)
 - Cassandra+Spark and Event-framework is optimized to do bounded and unbounded analysis repectively

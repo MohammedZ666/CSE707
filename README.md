@@ -121,7 +121,6 @@ These are notes taken from Tim Bergund's talk on distributed systems for Devoxx 
 - Hence, in a partitioned Topic, a datum is hashed by its ID to select its partition. The ID could be account-id, ip address, sensor id etc.
 - This breaks the natural ordering of queues as seen in a single-broker Topic
 - Although partitions are ordered, the Topic is not (in a partitioned Topic)
--
 
 ## 4. Streaming [39:59](https://youtu.be/BO761Fj6HH8?si=5rltv7bh0Ne5URPW&t=2399)
 
